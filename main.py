@@ -45,6 +45,7 @@ for y in range(10):
     tim.setpos(r, t + 50)
     t += 50
 
+tim.hideturtle()
 screen = Screen()
 screen.exitonclick()
  
